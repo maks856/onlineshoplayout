@@ -490,6 +490,8 @@ body .templates {
 }
 #blog .blogContent .postImg {
   width: 35vw;
+  height: 19.75vw;
+  align-self: center;
   padding-right: 2%;
 }
 @media (max-width: 570px) {
