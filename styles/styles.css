@@ -5,26 +5,32 @@
 }
 body {
   margin: 0 auto;
+
+}
+@media (min-width: 1300px) {
+  body {
+    margin: 0 5%;
+  }
 }
 body .text {
   font-family: "Segoe UI", "Arial", serif;
 }
 body header {
-  position: fixed;
-  z-index: 1;
-  width: 100%;
+  /*position: fixed;*/
+  /*z-index: 1;*/
+  /*width: 100%;*/
 }
 body #top {
   background: #43c59e;
   display: flex;
   align-items: center;
-  height: 8vw;
+  height: 7vw;
   width: 100%;
   justify-content: space-between;
 }
 @media (max-width: 770px) {
   body #top {
-    height: 14vw;
+    height: 10vw;
   }
 }
 @media (max-width: 540px) {
@@ -70,7 +76,7 @@ body #top #phoneNumber {
 }
 @media (max-width: 770px) {
   body #top #phoneNumber {
-    font-size: 3.3vw;
+    font-size: 3vw;
   }
 }
 @media (max-width: 540px) {
@@ -82,7 +88,7 @@ body #top #icons {
   display: flex;
   margin-right: 3%;
   justify-content: space-between;
-  width: 13vw;
+  width: 10vw;
 }
 @media (max-width: 770px) {
   body #top #icons {
@@ -97,7 +103,7 @@ body #top #icons {
 body #top #icons .icon {
   cursor: pointer;
   background: none;
-  width: 4vw;
+  width: 3vw;
   border-radius: 2.5vw;
   border: none;
 }
@@ -117,7 +123,7 @@ body #top #icons .icon img {
   height: 95%;
 }
 body #nav {
-  height: 8vw;
+  height: 7vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -129,7 +135,7 @@ body #nav {
 }
 @media (max-width: 770px) {
   body #nav {
-    height: 14vw;
+    height: 10vw;
   }
 }
 @media (max-width: 570px) {
@@ -335,24 +341,24 @@ body .templates {
   padding-left: 3%;
   padding-right: 3%;
 }
-body #content {
-  padding-top: 16vw;
-}
-@media (max-width: 770px) {
-  body #content {
-    padding-top: 28vw;
-  }
-}
-@media (max-width: 570px) {
-  body #content {
-    padding-top: 30vw;
-  }
-}
-@media (max-width: 540px) {
-  body #content {
-    padding-top: 32vw;
-  }
-}
+/*body #content {*/
+/*  padding-top: 16vw;*/
+/*}*/
+/*@media (max-width: 770px) {*/
+/*  body #content {*/
+/*    padding-top: 28vw;*/
+/*  }*/
+/*}*/
+/*@media (max-width: 570px) {*/
+/*  body #content {*/
+/*    padding-top: 30vw;*/
+/*  }*/
+/*}*/
+/*@media (max-width: 540px) {*/
+/*  body #content {*/
+/*    padding-top: 32vw;*/
+/*  }*/
+/*}*/
 .units {
   padding-top: 0;
 }
@@ -489,6 +495,7 @@ body #content {
 @media (max-width: 570px) {
   #blog .blogContent .postImg {
     width: 100%;
+    height: auto;
     padding-right: 0;
   }
 }
